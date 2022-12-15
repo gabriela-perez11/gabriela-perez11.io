@@ -3,25 +3,25 @@ This repository hold all of the data and Prioritizr script used in our research 
 
 
 # Prioritizr Script
-# load packages
-library(sp)
-library(rgdal)
-library(raster)
-library(prioritizr)
-library(prioritizrdata)
-library(gurobi)
+ #load packages
+ library(sp)
+ library(rgdal)
+ library(raster)
+ library(prioritizr)
+ library(prioritizrdata)
+ library(gurobi)
 
-  # Load the data into Rstudio
+  #Load the data into Rstudio
   amsterdam <- readOGR(dsn = "C:/Users/krast/Documents/UVA/MFS/WGS/WGS_files/Amsterdam_Urban_Planning.shp") 
   fs <- list.files(path="C:/Users/krast/Documents/UVA/MFS/WGS/WGS_files/", pattern = "tif$", full.names = TRUE)
   features <- raster::stack(fs)
 
-  # Plot data
+  #Plot data
   plot(amsterdam)
   plot(features)
   
   
-  # Transform data to numbers and logics
+  #Transform data to numbers and logics
   amsterdam$cost <- as.numeric(amsterdam$grid_code)
   amsterdam$locked_in <- as.logical(as.numeric(amsterdam$PARK))
     
