@@ -11,7 +11,7 @@ This repository hold all of the data and Prioritizr script used in our research 
 
 
 
-## Individual Interpretation, Limitations, Future Reccomendations + Reflection
+### Individual Interpretation, Limitations, Future Reccomendations + Reflection
 
 The first output scenario of our model aimed to maximize public health and well-being within a 38.5 million Euro budget. We used this figure in order to see  within an average-range green space budget how many targets we could reach. Ultimately, this scenario would cost 34.9. million Euros to be achieved. The map in Figure 3 of the report shows how little can actually be achieved within this budget, showing small patches of new green space in the Niew-West and Noord regions of Amsterdam. The output shows that only 8 new patches of green space can be implemented within this budget, and correlates with the higher price-points and lack of available space in other regions of Amsterdam. In total, only 8 hectares of green space are able to be implemented within this small budget. 
 
